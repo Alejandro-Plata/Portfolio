@@ -53,21 +53,22 @@ const TRANSLATIONS: Record<Lang, Dictionary> = {
     about: {
       heading: 'Sobre mi',
       titleLine1: 'Desarrollador',
-      titleLine2: 'Web y Multiplataforma',
+      titleLine2: 'Backend Junior',
       bio: [
-        'Desarrollador especializado en <span class="text-emerald-400 font-semibold">backend</span>: ' +
-          'diseno y construyo <span class="text-zinc-200">APIs REST</span> con ' +
-          '<span class="text-emerald-400 font-semibold">Java / Spring Boot</span> y ' +
-          '<span class="text-emerald-400 font-semibold">Node.js / Express</span>, ' +
-          'sobre bases de datos <span class="text-emerald-400 font-semibold">PostgreSQL</span>.',
-        'He completado mis practicas en <span class="text-zinc-200 font-semibold">NTT Data</span>, ' +
-          'trabajando con arquitecturas <span class="text-zinc-300">MVC</span>, desarrollo de servicios y ' +
-          '<span class="text-emerald-400 font-semibold">testing</span> en entornos locales, desarrollando ' +
-          'soluciones a problemas en varias aplicaciones de <span class="text-emerald-400 font-semibold">Spring</span>.',
-        'He trabajado con <span class="text-emerald-400 font-semibold">TypeScript</span> ' +
-          '(acompañando tanto a <span class="text-zinc-300">Angular</span> como a <span class="text-zinc-300">React</span>), ' +
-          'autenticacion con <span class="text-emerald-400 font-semibold">JWT</span>, ' +
-          '<span class="text-emerald-400 font-semibold">sockets</span>, entre otras tecnologías.',
+        'Desarrollador <span class="text-emerald-400 font-semibold">backend junior</span> con ' +
+          '<span class="text-zinc-200 font-semibold">4 meses de experiencia profesional en NTT Data</span> ' +
+          'manteniendo una aplicación <span class="text-emerald-400 font-semibold">Java 8 / Spring</span> en producción ' +
+          '(SonarQube, JUnit, Scrum). Trabajo con <span class="text-emerald-400 font-semibold">Java</span>, ' +
+          '<span class="text-emerald-400 font-semibold">Spring</span> y ' +
+          '<span class="text-emerald-400 font-semibold">Node.js / Express</span>.',
+        'Técnico Superior en <span class="text-zinc-200 font-semibold">DAM (Matrícula de Honor)</span> y ' +
+          'graduado en <span class="text-zinc-200 font-semibold">Biología</span>. Cinco proyectos propios: ' +
+          'cuatro aplicaciones full-stack con <span class="text-zinc-200">APIs REST</span>, ' +
+          '<span class="text-emerald-400 font-semibold">JWT / OAuth</span> y ' +
+          '<span class="text-emerald-400 font-semibold">PostgreSQL</span>, y una app Android nativa.',
+        'Incorporación inmediata, con disponibilidad para trasladarme ' +
+          '(<span class="text-zinc-300">Madrid, Barcelona o UE</span>). Ciudadano UE, elegible para contrato ' +
+          'formativo en prácticas. Inglés <span class="text-zinc-300">B2</span>.',
       ],
       downloadCv: 'Descargar CV',
     },
@@ -85,13 +86,13 @@ const TRANSLATIONS: Record<Lang, Dictionary> = {
       timeline: [
         {
           period: 'Feb 2026 - May 2026',
-          title: 'Desarrollador Junior (Prácticas) - NTT Data',
-          place: 'Cáceres',
+          title: 'Desarrollador Java en prácticas (Formación Práctica Dual) - NTT Data',
+          place: 'Cáceres · Proyecto para un cliente del sector energético',
           bullets: [
-            'Desarrollo de aplicaciones siguiendo arquitectura MVC utilizando Java 8 y Spring Framework.',
-            'Implementación de vistas con JSP y controladores/servicios mediante interfaces.',
-            'Aseguramiento de la calidad del código mediante testing (JUnit, Mockito) y análisis de cobertura con SonarQube.',
-            'Control de versiones en equipo utilizando Git y SourceTree.',
+            'Mantenimiento de una aplicación empresarial en producción con Java 8 y Spring (legacy), en un equipo Scrum de 8 personas.',
+            'Corrección diaria de incidencias de SonarQube (code smells y malas prácticas) para mejorar la mantenibilidad del código.',
+            'Desarrollo de eventos de calendario vinculados a la recepción de correos para convocar reuniones; corrección de bugs de interfaz.',
+            'Tests unitarios con JUnit; acceso restringido durante una corrección de vulnerabilidades.',
           ],
         },
         {
@@ -107,22 +108,22 @@ const TRANSLATIONS: Record<Lang, Dictionary> = {
         },
         {
           period: '2024 - 2026',
-          title: 'Técnico Superior en DAM',
+          title: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)',
           place: 'IES Ágora | Cáceres',
           badge: 'Matrícula de Honor',
-          summary: 'Desarrollo de Aplicaciones Multiplataforma. Nota media: 9.8/10.',
+          summary: 'Nota media: 9.8/10.',
         },
         {
           period: '2020 - 2025',
           title: 'Grado en Biología',
           place: 'Universidad de Extremadura | Badajoz',
-          summary: 'Desarrollo de mentalidad analítica y orden metódico.',
+          summary: 'Orientado a healthtech, biotech y bioinformática.',
         },
       ],
     },
     contact: {
       heading: 'Contacto',
-      intro: 'Actualmente estoy abierto a nuevas oportunidades. Dejame un mensaje y te respondere lo antes posible.',
+      intro: 'Estoy abierto a nuevas oportunidades, con incorporación inmediata y disponibilidad para trasladarme (Madrid, Barcelona o UE). Dejame un mensaje y te respondere lo antes posible.',
       namePlaceholder: 'Tu nombre',
       emailPlaceholder: 'Tu email',
       messagePlaceholder: 'Tu mensaje',
@@ -140,22 +141,23 @@ const TRANSLATIONS: Record<Lang, Dictionary> = {
     nav: { about: 'About', projects: 'Projects', experience: 'Experience', contact: 'Contact' },
     about: {
       heading: 'About me',
-      titleLine1: 'Web & Cross-Platform',
+      titleLine1: 'Junior Backend',
       titleLine2: 'Developer',
       bio: [
-        'Developer specialized in <span class="text-emerald-400 font-semibold">backend</span>: ' +
-          'I design and build <span class="text-zinc-200">REST APIs</span> with ' +
-          '<span class="text-emerald-400 font-semibold">Java / Spring Boot</span> and ' +
-          '<span class="text-emerald-400 font-semibold">Node.js / Express</span>, ' +
-          'on <span class="text-emerald-400 font-semibold">PostgreSQL</span> databases.',
-        'I completed my internship at <span class="text-zinc-200 font-semibold">NTT Data</span>, ' +
-          'working with <span class="text-zinc-300">MVC</span> architectures, service development and ' +
-          '<span class="text-emerald-400 font-semibold">testing</span> in local environments, building ' +
-          'solutions across several <span class="text-emerald-400 font-semibold">Spring</span> applications.',
-        'I have worked with <span class="text-emerald-400 font-semibold">TypeScript</span> ' +
-          '(alongside both <span class="text-zinc-300">Angular</span> and <span class="text-zinc-300">React</span>), ' +
-          '<span class="text-emerald-400 font-semibold">JWT</span> authentication, ' +
-          '<span class="text-emerald-400 font-semibold">sockets</span>, among other technologies.',
+        '<span class="text-emerald-400 font-semibold">Junior backend</span> developer with ' +
+          '<span class="text-zinc-200 font-semibold">4 months of professional experience at NTT Data</span> ' +
+          'maintaining a production <span class="text-emerald-400 font-semibold">Java 8 / Spring</span> application ' +
+          '(SonarQube, JUnit, Scrum). I work with <span class="text-emerald-400 font-semibold">Java</span>, ' +
+          '<span class="text-emerald-400 font-semibold">Spring</span> and ' +
+          '<span class="text-emerald-400 font-semibold">Node.js / Express</span>.',
+        'Higher Technician in <span class="text-zinc-200 font-semibold">Multiplatform App Development (DAM, Top Honors)</span> ' +
+          'and <span class="text-zinc-200 font-semibold">Biology</span> graduate. Five projects of my own: ' +
+          'four full-stack applications with <span class="text-zinc-200">REST APIs</span>, ' +
+          '<span class="text-emerald-400 font-semibold">JWT / OAuth</span> and ' +
+          '<span class="text-emerald-400 font-semibold">PostgreSQL</span>, and a native Android app.',
+        'Available to start immediately and open to relocating ' +
+          '(<span class="text-zinc-300">Madrid, Barcelona or the EU</span>). EU citizen, eligible for a ' +
+          'training internship contract. English <span class="text-zinc-300">B2</span>.',
       ],
       downloadCv: 'Download CV',
     },
@@ -173,13 +175,13 @@ const TRANSLATIONS: Record<Lang, Dictionary> = {
       timeline: [
         {
           period: 'Feb 2026 - May 2026',
-          title: 'Junior Developer (Internship) - NTT Data',
-          place: 'Cáceres',
+          title: 'Java Developer Intern (Dual Practical Training) - NTT Data',
+          place: 'Cáceres · Project for a client in the energy sector',
           bullets: [
-            'Application development following MVC architecture using Java 8 and Spring Framework.',
-            'Implementation of views with JSP and controllers/services through interfaces.',
-            'Code quality assurance through testing (JUnit, Mockito) and coverage analysis with SonarQube.',
-            'Team version control using Git and SourceTree.',
+            'Maintenance of a production enterprise application built with Java 8 and Spring (legacy), in an 8-person Scrum team.',
+            'Daily fixing of SonarQube issues (code smells and bad practices) to improve code maintainability.',
+            'Development of calendar events linked to incoming emails to schedule meetings; UI bug fixes.',
+            'Unit testing with JUnit; restricted access during a vulnerability remediation.',
           ],
         },
         {
@@ -198,19 +200,19 @@ const TRANSLATIONS: Record<Lang, Dictionary> = {
           title: 'Higher Technician in Multiplatform App Development (DAM)',
           place: 'IES Ágora | Cáceres',
           badge: 'Top Honors',
-          summary: 'Cross-platform application development. GPA: 9.8/10.',
+          summary: 'GPA: 9.8/10.',
         },
         {
           period: '2020 - 2025',
           title: "Bachelor's Degree in Biology",
           place: 'University of Extremadura | Badajoz',
-          summary: 'Development of an analytical mindset and a methodical approach.',
+          summary: 'Focused on healthtech, biotech and bioinformatics.',
         },
       ],
     },
     contact: {
       heading: 'Contact',
-      intro: "I'm currently open to new opportunities. Drop me a message and I'll get back to you as soon as possible.",
+      intro: "I'm open to new opportunities, available to start immediately and to relocate (Madrid, Barcelona or the EU). Drop me a message and I'll get back to you as soon as possible.",
       namePlaceholder: 'Your name',
       emailPlaceholder: 'Your email',
       messagePlaceholder: 'Your message',
