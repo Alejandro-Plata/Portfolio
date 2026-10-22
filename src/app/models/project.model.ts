@@ -90,12 +90,12 @@ export const PROJECTS: Project[] = [
       'Aplicación web para buscar anime y llevar el seguimiento personal: lista con estado y nota, ' +
       'descubrimiento aleatorio con tarjetas deslizables, ficha con episodios y reseñas y gestión de perfil. ' +
       'Cliente Angular 20 y API REST propia en Node/Express con PostgreSQL, autenticación JWT y recuperación ' +
-      'de contraseña por correo. Datos del catálogo de MyAnimeList a través de la API Jikan.',
+      'de contraseña por correo. Datos del catálogo de MyAnimeList a través de la API jikan-edge.',
     descriptionEn:
       'Web app to search anime and keep a personal watchlist: list with status and score, random ' +
       'discovery with swipeable cards, detail page with episodes and reviews, and profile management. ' +
       'Angular 20 client and a custom REST API in Node/Express with PostgreSQL, JWT authentication and ' +
-      'password recovery by email. Catalog data from MyAnimeList through the Jikan API.',
+      'password recovery by email. Catalog data from MyAnimeList through the jikan-edge API.',
     tech: ['Angular 20', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'JWT'],
     images: [
       'assets/projects/kairo/kairo_1.jpg',
